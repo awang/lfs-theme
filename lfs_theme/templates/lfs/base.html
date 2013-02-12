@@ -46,7 +46,7 @@
                     <div class="span-6 logo">
                         <a href="{% url lfs.core.views.shop_view %}">
                             <img class="logo"
-                                 src="{{ STATIC_URL }}img/logo.jpg"
+                                 src="{{ STATIC_URL }}img/logo_instbly.png"
                                  alt="Logo" />
                         </a>
                     </div>
@@ -165,10 +165,6 @@
             <div class="container">
                 {% block colophon %}
                     <p>{% trans 'Powered by' %} <a target="_blank" href="http://www.getlfs.com">LFS</a> &mdash; Lightning Fast Shop</p>
-                    <p>
-                        &copy; 2009 - 2011 {% trans 'by' %} Kai Diefenbach and contributors &mdash; {% trans 'All rights reserved' %}
-                    </p>
-                    <p>{% trans 'Distributed under the' %} <a target="_blank" href="http://www.opensource.org/licenses/bsd-license.php">{% trans 'BSD-License' %}</a></p>
                 {% endblock %}
             </div>
         </div>

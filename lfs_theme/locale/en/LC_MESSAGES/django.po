@@ -194,7 +194,7 @@ msgstr ""
 #: templates/lfs/cart/cart_inline.html:41
 #: templates/lfs/checkout/checkout_cart_inline.html:33
 msgid "VAT"
-msgstr ""
+msgstr "Tax"
 
 #: templates/lfs/cart/cart.html:6 templates/lfs/cart/cart.html.py:12
 #: templates/lfs/portlets/cart.html:12 templates/lfs/portlets/cart.html:16
@@ -254,7 +254,7 @@ msgstr ""
 #: templates/lfs/mail/order_sent_mail.html:312
 #: templates/lfs/order/lfs_order_tmpl.html:253
 msgid "Inclusive VAT"
-msgstr ""
+msgstr "Includes Tax"
 
 #: templates/lfs/cart/cart_inline.html:272
 msgid "Total delivery time"
@@ -365,7 +365,7 @@ msgstr ""
 #: templates/lfs/portlets/forsale.html:51
 #: templates/lfs/search/search_results.html:90
 msgid "*inc. VAT"
-msgstr ""
+msgstr "*inc. Tax"
 
 #: templates/lfs/catalog/categories/product/default.html:75
 #: templates/lfs/catalog/products/product_inline.html:71
@@ -375,7 +375,7 @@ msgstr ""
 #: templates/lfs/portlets/forsale.html:23
 #: templates/lfs/portlets/forsale.html:53
 msgid "*exc. VAT"
-msgstr ""
+msgstr "*exc. Tax"
 
 #: templates/lfs/catalog/products/product_inline.html:172
 msgid "Add to cart"
