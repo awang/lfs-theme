@@ -4,14 +4,12 @@
 
 {% sorting %}
 
-{% block products-header %}
 <h1 class="first-heading">
     {{ category.name }}
 </h1>
 <div class="description">
     {{ category.description|safe }}
 </div>
-{% endblock %}
 <div id="products">
     <table class="lfs-default">
         {% for col in products %}
@@ -63,13 +61,13 @@
                                 {% endif %}
                             </div>
                         {% endif %}
-                        <div class="price-disclaimer">
+                        <!--div class="price-disclaimer">
                             {% if product.price_includes_tax %}
                                 {% trans '*inc. VAT' %}
                             {% else  %}
                                 {% trans '*exc. VAT' %}
                             {% endif %}
-                        </div>
+                        </div-->
                     </div>
                     <div class="details-button">
                         <a class="button emphasized"
